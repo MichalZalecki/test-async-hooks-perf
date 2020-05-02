@@ -1,0 +1,17 @@
+{
+  "name": "test-async-hooks-perf",
+  "version": "0.0.0",
+  "author": "Michal Zalecki <michal@michalzalecki.com>",
+  "license": "ISC",
+  "type": "module",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@types/express": "4.17.6",
+    "@types/uuid": "7.0.3",
+    "express": "4.17.1",
+    "typescript": "^3.8.3",
+    "uuid": "^8.0.0"
+  }
+}
