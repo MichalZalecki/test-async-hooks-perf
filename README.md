@@ -24,6 +24,7 @@ Very simplistic synthetic benchmark to compare [performance](https://github.com/
 
 **cls-hooked (example2)**
 
+    $ wrk -d 30 http://localhost:3000/hello
     Running 30s test @ http://localhost:3000/hello
       2 threads and 10 connections
       Thread Stats   Avg      Stdev     Max   +/- Stdev

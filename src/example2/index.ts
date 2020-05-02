@@ -12,10 +12,9 @@ app.use((_req, _res, next) => {
     ns.set("requestId", uuid());
     next();
   });
-  next();
 });
 
-app.get("/hello", (req, res) => {
+app.get("/hello", (_req, res) => {
   res.send({ hello: ns.get("requestId") });
 });
 
